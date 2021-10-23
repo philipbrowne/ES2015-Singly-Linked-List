@@ -12,7 +12,6 @@ class SinglyLinkedList {
     this.tail = null;
   }
   push(val) {
-    // append item to the end of the list
     var newNode = new Node(val);
     if (!this.head) {
       this.head = newNode;
